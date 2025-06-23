@@ -1,0 +1,74 @@
+.contacto {
+    margin: 0 auto;
+    padding: 16.5% 2%;
+    color: white;
+    background-color: #1684b0ab;
+    width: 96%;
+}
+
+.contacto h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #1684b0ab;
+    border-radius: 5%;
+    padding: 2rem;
+}
+
+.contacto form:hover {
+  background-color: #1684b0d0;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
+  transition: all 0.3s ease;
+}
+
+.contacto label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #00ffff;
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    background-color: #026181;
+    color: white;
+}
+
+.contacto button {
+    padding: 12px;
+    background-color: #00ffff;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contacto button:hover {
+    background-color: #00cccc;
+}
+
+.asunto-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #00ffff;
+    color:#034b4b
+}
