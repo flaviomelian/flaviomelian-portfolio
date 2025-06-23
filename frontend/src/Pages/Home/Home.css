@@ -1,0 +1,83 @@
+.home-section {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.to-see {
+    height: 18vh;
+}
+
+.projects {
+    background-color: #1685b070;
+    color: white;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    position: relative;
+    top: 12vh;
+    right: 20vw;
+}
+
+.projects:hover {
+    background-color: #058abb;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
+    transition: all 0.3s ease;
+}
+
+.intro,
+.destacados {
+    background-color: #1684b0a4;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.stack {
+    width: 90%;
+    height: 90%;
+    border-radius: 5%;
+    position: relative;
+    left: 0%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+li {
+    background-color: #1684b0c0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    background-color: #058abb;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
+}
+
+.about-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    border-radius: 5% / 50%;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+}
+
+.about-link:hover {
+    color: white;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+}

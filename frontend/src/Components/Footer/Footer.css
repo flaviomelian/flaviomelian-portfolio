@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    background-color: rgb(26, 25, 25);
+    height: 11vh;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.footer div {
+    margin-top: 2%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+    padding-right: 4%;
+}
+
+.social-icons img {
+    width: 95%;
+    height: 50%;
+    transition: transform 0.3s ease;
+    border-radius: 25%;
+}

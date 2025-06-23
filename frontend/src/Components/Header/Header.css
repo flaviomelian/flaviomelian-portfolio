@@ -1,0 +1,34 @@
+header {
+    background-color: rgb(26, 25, 25);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav>div {
+    display: flex;
+    gap: 15px;
+    /* espacio entre íconos */
+}
+
+img {
+    margin-top: 15px;
+    height: 27px;
+}
+
+img:hover {
+    filter: brightness(1.1);
+    background-color: rgba(200, 200, 200, 0.1);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
