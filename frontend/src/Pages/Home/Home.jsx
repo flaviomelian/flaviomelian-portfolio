@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import background from '../../assets/background.jpg'
 import stack from '../../assets/stack.png'
+import skills from '../../assets/skills.png'
 import './Home.css'
 
 function Home() {
@@ -54,6 +55,7 @@ function Home() {
 
       <section className="destacados">
         <img className='stack' src={stack} />
+        <img className='stack-alt' src={skills} />
       </section>
     </>
 
