@@ -1,0 +1,94 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #1684b0a4;
+}
+
+.projects-container h1 {
+    background-color: #1684b0a4;
+    padding: 1%;
+    border-radius: 5%;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+}
+
+.projects-container h1:hover {
+    background-color: #1684b0a4;
+    padding: 1%;
+    border-radius: 5%;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.projects-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: #1684b0a4;
+    border-radius: 5%;
+    color: white;
+    padding: 20px;
+    padding-top: 0%;
+    border-radius: 5%;
+    margin-bottom: 5%;
+    box-shadow: -6px 0 12px rgba(255, 255, 255, 0.15), 6px 0 12px rgba(255, 255, 255, 0.15);
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.pokimon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 100%;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+
+.project-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 20px;
+}
+
+.cooks {
+    display: flex;
+    justify-self: center;
+    width: 70%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.project-images-cookbook {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    row-gap: 20px;
+}

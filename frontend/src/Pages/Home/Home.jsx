@@ -24,7 +24,7 @@ function Home() {
 
       </section>
       <section className="intro">
-        <h1>¡Hola! Soy <Link to="/sobre-mi" className="about-link">Flavio Melián</Link></h1>
+        <h1>¡Hola! Soy<Link to="/sobre-mi" className="about-link">Flavio Melián</Link></h1>
         <p>Desarrollador multiplataforma enfocado en crear experiencias digitales limpias y funcionales.</p>
         <a href="/proyectos" className="btn">Ver proyectos</a>
       </section>
