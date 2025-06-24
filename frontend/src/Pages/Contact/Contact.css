@@ -90,4 +90,7 @@
 
 @media screen and (max-width: 426px) {
     .contacto { padding: 35% 2%; }
+    input {
+        width: 50%;
+    }
 }
