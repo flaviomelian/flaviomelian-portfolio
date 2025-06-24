@@ -20,7 +20,8 @@ main img {
   padding: 0 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  background-color: #1684b0ab;
+  background-color: #1684b0a4;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
   line-height: 1.6;
   opacity: 1;
   border-radius: 5%;
@@ -28,7 +29,7 @@ main img {
 
 .container:hover {
   background-color: #1684b0d0;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.697);
   transition: all 0.3s ease;
 }
 
@@ -41,4 +42,31 @@ main img {
 .paragraph {
   margin-bottom: 1.3rem;
   font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1441px) {
+  main {
+    flex-direction: column;
+    padding-bottom: 3%;
+  }
+
+  .container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+
+  main img {
+    margin: auto;
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) and (orentation: landscape) {
+  main img {
+    margin: auto;
+    width: 30%;
+    height: auto;
+  }
 }

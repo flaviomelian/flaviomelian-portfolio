@@ -22,6 +22,16 @@
 .social-icons img {
     width: 95%;
     height: 50%;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease-in-out;
     border-radius: 25%;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1441px) {
+  .footer {
+    padding-bottom: 1%;
+  }
 }

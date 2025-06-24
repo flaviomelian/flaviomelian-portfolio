@@ -10,6 +10,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 a {
@@ -65,3 +66,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+@media screen and (max-width: 1025px) {
+  :root {
+    width: 100%;
+    padding: 0 1em;
+  }  
+}
+
+@media screen and (max-width: 426px) {
+  :root { padding: 0; }
+}
+

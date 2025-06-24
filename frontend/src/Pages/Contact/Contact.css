@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 16.5% 2%;
     color: white;
-    background-color: #1684b0ab;
+    background-color: #1684b0a4;
     width: 96%;
 }
 
@@ -17,7 +17,7 @@
     gap: 1rem;
     width: 50%;
     margin: 0 auto;
-    background-color: #1684b0ab;
+    background-color: #1684b0d3;
     border-radius: 5%;
     padding: 2rem;
 }
@@ -34,7 +34,7 @@
     justify-content: space-between;
     font-size: 1rem;
     font-weight: bold;
-    color: #00ffff;
+    color: #74caf2;
 }
 
 .contacto input,
@@ -50,7 +50,7 @@
 
 .contacto button {
     padding: 12px;
-    background-color: #00ffff;
+    background-color: #0e8dc7;
     color: #000;
     border: none;
     border-radius: 8px;
@@ -60,7 +60,7 @@
 }
 
 .contacto button:hover {
-    background-color: #00cccc;
+    background-color: #14abf1;
 }
 
 .asunto-select {
@@ -69,6 +69,25 @@
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color: #00ffff;
+    background-color: #0e8dc7;
     color:#034b4b
+}
+
+@media screen and (max-width: 1025px) {
+    .contacto { padding: 21% 2%; }
+    .footer { height: 9vh; }
+}
+
+@media screen and (max-width: 769px) {
+    .contacto { padding: 29% 2%; }
+    .footer {
+        padding-bottom: 0%;
+        height: 9vh;
+    }
+    :root { padding: 0;}
+    .contacto form { width: 75%; }
+}
+
+@media screen and (max-width: 426px) {
+    .contacto { padding: 35% 2%; }
 }

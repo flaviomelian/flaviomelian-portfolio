@@ -8,7 +8,7 @@
 }
 
 .projects {
-    background-color: #1685b070;
+    background-color: #1684b0a4;
     color: white;
     padding: 20px;
     width: 20%;
@@ -32,23 +32,15 @@
     color: white;
     padding: 20px;
     box-shadow:
-    -6px 0 12px rgba(255, 255, 255, 0.15),
-     6px 0 12px rgba(255, 255, 255, 0.15);
+        -6px 0 12px rgba(255, 255, 255, 0.15),
+        6px 0 12px rgba(255, 255, 255, 0.15);
     text-align: center;
 }
 
 .stack {
     width: 90%;
-    height: 60%;
+    height: 47%;
     border-radius: 10% / 15%;
-    position: relative;
-    left: 0%;
-}
-
-.stack-alt{
-    width: 90%;
-    height: 35%;
-    border-radius: 5% / 20%;
     position: relative;
     left: 0%;
 }
@@ -89,4 +81,15 @@ li:hover {
     color: white;
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 426px) {
+
+    h1 {
+        font-size: 1.4rem !important;
+    }
+
+    .destacados:last-of-type {
+        display: none;
+    }
 }

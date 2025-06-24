@@ -1,4 +1,15 @@
 import React from 'react'
+import pm1 from '../../assets/pm-1.jpg'
+import pm2 from '../../assets/pm-2.jpg'
+import pm3 from '../../assets/pm-3.jpg'
+import pm4 from '../../assets/pm-4.jpg'
+import pm5 from '../../assets/pm-5.jpg'
+import pm6 from '../../assets/pm-6.jpg'
+import pm7 from '../../assets/pm-7.jpg'
+import pm8 from '../../assets/pm-8.jpg'
+import pm9 from '../../assets/pm-9.jpg'
+import pm10 from '../../assets/pm-10.jpg'
+import pm11 from '../../assets/pm-11.jpg'
 import pokimon from '../../assets/pokimon-app.png'
 import pokimons from '../../assets/pokimons.png'
 import pokimonTeam from '../../assets/pokimon-team.png'
@@ -13,6 +24,26 @@ const Projects = () => {
         <div className='projects-container'>
             <h1>Proyectos</h1>
             <div className='projects-page'>
+                <div className='project'>
+                    <h2>Projects Management</h2>
+                    <p>Una aplicación para gestionar proyectos de desarrollo Scrum.</p>
+                    <a href='' />
+                    <div className='project-images-pm'>
+                        <img className='pm' src={pm1} />
+                        <img className='pm' src={pm2} />
+                        <img className='pm' src={pm3} />
+                        <img className='pm' src={pm4} />
+                        <img className='pm' src={pm5} />
+                        <img className='pm' src={pm6} />
+                        <img className='pm' src={pm7} />
+                        <img className='pm' src={pm8} />
+                        <img className='pm' src={pm9} />
+                        <div>
+                            <img className='pm-alt' src={pm10} />
+                            <img className='pm-alt' src={pm11} />
+                        </div>
+                    </div>
+                </div>
                 <div className='project'>
                     <h2>Pókimon App</h2>
                     <p>Una aplicación para buscar información sobre Pokémon conectada con la PokéApi.</p>

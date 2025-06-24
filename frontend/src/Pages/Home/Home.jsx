@@ -55,7 +55,7 @@ function Home() {
 
       <section className="destacados">
         <img className='stack' src={stack} />
-        <img className='stack-alt' src={skills} />
+        <img className='stack' src={skills} />
       </section>
     </>
 
