@@ -88,8 +88,5 @@ li:hover {
     h1 {
         font-size: 1.4rem !important;
     }
-
-    .destacados:last-of-type {
-        display: none;
-    }
+    
 }
