@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import background from '../../assets/background.jpg'
 import stack from '../../assets/stack.png'
 import skills from '../../assets/skills.png'
+import gitGitHub from '../../assets/git-github.png'
 import './Home.css'
 
 function Home() {
@@ -53,6 +54,7 @@ function Home() {
       </section>
 
       <section className="destacados">
+        <img className='stack-home' src={gitGitHub} />
         <img className='stack-home' src={stack} />
         <img className='stack-home' src={skills} />
       </section>
