@@ -88,5 +88,10 @@ li:hover {
     h1 {
         font-size: 1.4rem !important;
     }
+
+    .about-link {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
     
 }
