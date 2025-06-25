@@ -21,8 +21,12 @@ import wallpaper from '../../assets/wallpaper-generator.png'
 import spring from '../../assets/springboot-inner.svg'
 import react from '../../assets/react.svg'
 import mysql from '../../assets/mysql.jpg'
-import pyhton from '../../assets/python.png'
+import python from '../../assets/python.png'
 import extApi from '../../assets/external-api.png' 
+import odoo from '../../assets/odoo.png'
+import odooPet from '../../assets/odoo-pet.png'
+import dashboardOdooPet from '../../assets/dashboard-odoo-pet.png'
+import formOdoo from '../../assets/form-odoo.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -88,10 +92,23 @@ const Projects = () => {
                 <div className='project'>
                     <h2>Wallpaper Pattern Editor</h2>
                     <p>Una aplicación para generar fondos de pantalla basados en patrones de figuras.</p>
-                    <img className='python' src={pyhton}/>
+                    <img className='python' src={python}/>
                     <a href='' />
                     <div className='project-images-wallpaper'>
                         <img className='wallpaper-editor' src={wallpaper} />
+                    </div>
+                </div>
+                <div className='project'>
+                    <h2>Odoo Pet</h2>
+                    <p>Una aplicación en Odoo para gestionar la adopción de animales</p>
+                    <div className='stack'>
+                        <img className='python' src={python}/>
+                        <img className='python' src={odoo}/>
+                    </div>
+                    <div className='project-images-odoo-pet'>
+                        <img className='img-odoo-pet' src={odooPet}/>
+                        <img className='img-odoo-pet'src={dashboardOdooPet}/>
+                        <img className='img-odoo-pet'src={formOdoo}/>
                     </div>
                 </div>
             </div>

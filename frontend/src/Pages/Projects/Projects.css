@@ -48,7 +48,8 @@
     margin-bottom: 5%;
 }
 
-.stack, .stack-alt {
+.stack,
+.stack-alt {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -161,6 +162,20 @@
 .python {
     width: 20%;
     height: 20%;
+}
+
+.project-images-odoo-pet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-odoo-pet {
+    width: 80%;
+    height: 37%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1% / 10%;
 }
 
 @media screen and (max-width: 1025px) {
