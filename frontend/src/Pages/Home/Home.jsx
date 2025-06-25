@@ -53,8 +53,8 @@ function Home() {
       </section>
 
       <section className="destacados">
-        <img className='stack' src={stack} />
-        <img className='stack' src={skills} />
+        <img className='stack-home' src={stack} />
+        <img className='stack-home' src={skills} />
       </section>
     </>
 

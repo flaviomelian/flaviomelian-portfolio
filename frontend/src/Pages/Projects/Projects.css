@@ -64,13 +64,16 @@
     width: 50%;
 }
 
-.stack img, .stack-alt img {
-  height: auto;
-  height: 100px; /* o el tamaño que prefieras */
-  width: auto;
-  margin-bottom: 0;
-  border-radius: 5%;
-  margin-right: 10px; /* para separar */
+.stack img,
+.stack-alt img {
+    height: auto;
+    height: 100px;
+    /* o el tamaño que prefieras */
+    width: auto;
+    margin-bottom: 0;
+    border-radius: 5%;
+    margin-right: 10px;
+    /* para separar */
 }
 
 
@@ -149,11 +152,11 @@
 }
 
 .projects-container img {
-  transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .projects-container img:hover {
-  transform: scale(1.07);
+    transform: scale(1.07);
 }
 
 .wallpaper-editor {
@@ -169,16 +172,42 @@
     height: 20%;
 }
 
+@media screen and (max-width: 1025px) {
+    .wallpaper-editor {
+        width: 95%;
+        margin-left: 0;
+    }
+}
+
 @media screen and (max-width: 769px) {
-    .project-images, .project-images-pm, .project-images-cookbook {
+
+    .stack-alt {
+        width: 100%;
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+    .stack-alt img {
+        width: 30%;
+    }
+
+    .project-images,
+    .project-images-pm,
+    .project-images-cookbook {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .pokimon, .team {
+    .pokimon,
+    .team {
         width: 100%;
         height: 100%;
+    }
+
+    .wallpaper-editor {
+        width: 95%;
+        height: 95%;
     }
 }

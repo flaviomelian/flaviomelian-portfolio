@@ -90,7 +90,7 @@ const Projects = () => {
                     <p>Una aplicación para generar fondos de pantalla basados en patrones de figuras.</p>
                     <img className='python' src={pyhton}/>
                     <a href='' />
-                    <div className='project-images-cookbook'>
+                    <div className='project-images-wallpaper'>
                         <img className='wallpaper-editor' src={wallpaper} />
                     </div>
                 </div>
