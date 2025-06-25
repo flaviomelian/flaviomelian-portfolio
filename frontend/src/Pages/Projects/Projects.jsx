@@ -101,7 +101,7 @@ const Projects = () => {
                 <div className='project'>
                     <h2>Odoo Pet</h2>
                     <p>Una aplicación en Odoo para gestionar la adopción de animales</p>
-                    <div className='stack'>
+                    <div className='stack-odoo'>
                         <img className='python' src={python}/>
                         <img className='python' src={odoo}/>
                     </div>
