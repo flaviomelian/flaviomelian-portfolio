@@ -7,8 +7,8 @@ const Footer = () => {
     <div className='footer'>
       <div>@flaviomelian &copy;</div>
       <div className='social-icons'>
-        <img src={linkedin}/>
-        <img src={github}/>
+        <a href='https://www.linkedin.com/in/flavio-melian-973308273/'><img src={linkedin}/></a>
+        <a href='https://github.com/flaviomelian'><img src={github}/></a>
       </div>
     </div>
   )
