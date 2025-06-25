@@ -59,7 +59,7 @@ const Projects = () => {
                     <h2>Pókimon App</h2>
                     <p>Una aplicación para buscar información sobre Pokémon conectada con la PokéApi.</p>
                     <a href='' />
-                    <div className='stack'> {/* este div no se ve (?????) */}
+                    <div className='stack'>
                         <img src={react}/>
                         <img src={extApi}/>
                     </div>
