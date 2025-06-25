@@ -17,6 +17,12 @@ import cookbookCooks from '../../assets/cookbook-cooks.jpeg'
 import cookbookCookInfo from '../../assets/cookbook-cook-info.jpeg'
 import cookbookFeed from '../../assets/cookbook-feed.jpeg'
 import cookbookNew from '../../assets/cookbook-new.jpeg'
+import wallpaper from '../../assets/wallpaper-generator.png'
+import spring from '../../assets/springboot-inner.svg'
+import react from '../../assets/react.svg'
+import mysql from '../../assets/mysql.jpg'
+import pyhton from '../../assets/python.png'
+import extApi from '../../assets/external-api.png' 
 import './Projects.css'
 
 const Projects = () => {
@@ -28,6 +34,11 @@ const Projects = () => {
                     <h2>Projects Management</h2>
                     <p>Una aplicación para gestionar proyectos de desarrollo Scrum.</p>
                     <a href='' />
+                    <div className='stack-alt'>
+                        <img src={react}/>
+                        <img src={spring}/>
+                        <img src={mysql}/>
+                    </div>
                     <div className='project-images-pm'>
                         <img className='pm' src={pm1} />
                         <img className='pm' src={pm2} />
@@ -48,6 +59,10 @@ const Projects = () => {
                     <h2>Pókimon App</h2>
                     <p>Una aplicación para buscar información sobre Pokémon conectada con la PokéApi.</p>
                     <a href='' />
+                    <div className='stack'> {/* este div no se ve (?????) */}
+                        <img src={react}/>
+                        <img src={extApi}/>
+                    </div>
                     <div className='project-images'>
                         <img className='pokimon' src={pokimon} />
                         <img className='pokimon' src={pokimons} />
@@ -58,11 +73,25 @@ const Projects = () => {
                     <h2>Cookbook</h2>
                     <p>Una aplicación para compartir recetas online.</p>
                     <a href='' />
+                    <div className='stack-alt'>
+                        <img src={react}/>
+                        <img src={spring}/>
+                        <img src={mysql}/>
+                    </div>
                     <div className='project-images-cookbook'>
                         <img className='cooks' src={cookbookCooks} />
                         <img className='cooks' src={cookbookCookInfo} />
                         <img className='cooks' src={cookbookFeed} />
                         <img className='cooks' src={cookbookNew} />
+                    </div>
+                </div>
+                <div className='project'>
+                    <h2>Wallpaper Pattern Editor</h2>
+                    <p>Una aplicación para generar fondos de pantalla basados en patrones de figuras.</p>
+                    <img className='python' src={pyhton}/>
+                    <a href='' />
+                    <div className='project-images-cookbook'>
+                        <img className='wallpaper-editor' src={wallpaper} />
                     </div>
                 </div>
             </div>

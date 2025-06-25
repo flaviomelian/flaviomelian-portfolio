@@ -48,6 +48,32 @@
     margin-bottom: 5%;
 }
 
+.stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.stack-alt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.stack img, .stack-alt img {
+  height: auto;
+  height: 100px; /* o el tamaño que prefieras */
+  width: auto;
+  margin-bottom: 0;
+  border-radius: 5%;
+  margin-right: 10px; /* para separar */
+}
+
+
 .pokimon {
     display: flex;
     flex-direction: column;
@@ -128,6 +154,19 @@
 
 .projects-container img:hover {
   transform: scale(1.07);
+}
+
+.wallpaper-editor {
+    width: 900px;
+    height: 400px;
+    margin-left: 3%;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+
+.python {
+    width: 20%;
+    height: 20%;
 }
 
 @media screen and (max-width: 769px) {
