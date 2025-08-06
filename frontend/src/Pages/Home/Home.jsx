@@ -55,8 +55,8 @@ function Home() {
 
       <section className="destacados">
         <img className='stack-home' src={gitGitHub} />
-        <img className='stack-home' src={stack} />
-        <img className='stack-home' src={skills} />
+        <img className='stack-home-alt' src={stack} />
+        <img className='stack-home-final' src={skills} />
       </section>
     </>
 
