@@ -155,6 +155,25 @@
     row-gap: 30px;
 }
 
+.bash-script {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.bash-script img {
+    width: 45%;
+    height: 100%;
+    border-radius: 3%;
+}
+
+.bash-script-img {
+    margin: 3% auto;
+    border-radius: 3%;
+    width: 60%;
+    height: 100%;
+}
+
 .project-images-pm {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -291,6 +310,10 @@
         width: 95%;
         height: 95%;
     }
+
+    .bash-script-img {
+        margin-top: 5%;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -304,5 +327,22 @@
 
     .mysql {
         width: 35% !important;
+    }
+
+    .bash-script {
+        flex-direction: column;
+    }
+
+    .bash-script img, .bash-script-img {
+        width: 100%;
+    }
+
+    .stack-alt img:first-of-type{
+        width: 42%;
+        margin-left: 10%;
+    }
+
+    .stack-alt img:last-of-type{
+        margin-right: 10%;
     }
 }
