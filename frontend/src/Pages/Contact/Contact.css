@@ -22,15 +22,15 @@
     border-radius: 5%;
     padding: 2rem;
     box-shadow:
-    0 0 10px rgba(22, 132, 176, 0.7),
-    0 0 20px rgba(22, 132, 176, 0.5),
-    0 0 30px rgba(22, 132, 176, 0.3);
+        0 0 10px rgba(22, 132, 176, 0.7),
+        0 0 20px rgba(22, 132, 176, 0.5),
+        0 0 30px rgba(22, 132, 176, 0.3);
 }
 
 .contacto form:hover {
-  background-color: #1684b0d0;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
-  transition: all 0.3s ease;
+    background-color: #1684b0d0;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
+    transition: all 0.3s ease;
 }
 
 .contacto label {
@@ -75,26 +75,49 @@
     border-radius: 5px;
     border: 1px solid #ccc;
     background-color: #0e8dc7;
-    color:#034b4b
+    color: #034b4b
 }
 
 @media screen and (max-width: 1025px) {
-    .contacto { padding: 21% 2%; }
-    .footer { height: 9vh; }
+    .contacto {
+        padding: 21% 2%;
+    }
+
+    .footer {
+        height: 9vh;
+    }
 }
 
 @media screen and (max-width: 769px) {
-    .contacto { padding: 29% 2%; }
+    .contacto {
+        padding: 29% 2%;
+    }
+
     .footer {
         padding-bottom: 0%;
         height: 9vh;
     }
-    :root { padding: 0;}
-    .contacto form { width: 75%; }
+
+    :root {
+        padding: 0;
+    }
+
+    .contacto form {
+        width: 75%;
+    }
 }
 
 @media screen and (max-width: 426px) {
-    .contacto { padding: 35% 2%; }
+    .contacto {
+        height: 43vh;
+        padding: 35% 2%;
+    }
+
+    .contacto form {
+        bottom: 16vh;
+        position: relative;
+    }
+
     input {
         width: 50%;
     }
