@@ -81,3 +81,7 @@ main img {
 @media screen and (max-width: 426px){
   main {height: 143vh}
 }
+
+@media screen and (max-width: 321px) {
+  main{height: 200vh;}
+}
