@@ -53,7 +53,7 @@ const Projects = () => {
             <h1>Proyectos</h1>
             <div className='projects-page'>
                 <div className='project'>
-                    <h2>CommandApp</h2>
+                    <h2>ComandApp</h2>
                     <p>Una aplicación para la gestión de comandas y menús en un restaurante.</p>
                     <a href='' />
                     <div className='stack-alt'>
