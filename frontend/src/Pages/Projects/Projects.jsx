@@ -151,7 +151,7 @@ const Projects = () => {
                     <h2>Autoejecutable para backups</h2>
                     <p>Un script para Linux en bash que permite crear copias de seguridad, paso a paso con un ejemplo.</p>
                     <a href='' />
-                    <div className='stack-alt'>
+                    <div className='stack-alt bash'>
                         <img src={bash} />
                         <img src={ubuntu}/>
                     </div>
