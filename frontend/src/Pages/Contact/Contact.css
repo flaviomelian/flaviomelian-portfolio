@@ -4,6 +4,7 @@
     color: white;
     background-color: #1684b0a4;
     width: 96%;
+    height: 100vh;
 }
 
 .contacto h2 {
@@ -20,6 +21,10 @@
     background-color: #1684b0d3;
     border-radius: 5%;
     padding: 2rem;
+    box-shadow:
+    0 0 10px rgba(22, 132, 176, 0.7),
+    0 0 20px rgba(22, 132, 176, 0.5),
+    0 0 30px rgba(22, 132, 176, 0.3);
 }
 
 .contacto form:hover {

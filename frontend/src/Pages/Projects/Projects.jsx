@@ -59,7 +59,7 @@ const Projects = () => {
                     <div className='stack-alt'>
                         <img className='next' src={next} />
                         <img className='node' src={node} />
-                        <img src={mysql} />
+                        <img className='mysql' src={mysql} />
                     </div>
                     <div className='styles-stack'>
                         <img className='twind' src={tailwind} />
@@ -92,7 +92,7 @@ const Projects = () => {
                     <div className='stack-alt'>
                         <img src={react} />
                         <img src={spring} />
-                        <img src={mysql} />
+                        <img className='mysql' src={mysql} />
                     </div>
                     <img className='bstrap-alt' src={bootstrap} />
                     <div className='project-images-pm'>
@@ -132,7 +132,7 @@ const Projects = () => {
                     <div className='stack-alt'>
                         <img src={react} />
                         <img src={spring} />
-                        <img src={mysql} />
+                        <img className='mysql' src={mysql} />
                     </div>
                     <div className='project-images-cookbook'>
                         <img className='cooks' src={cookbookCooks} />

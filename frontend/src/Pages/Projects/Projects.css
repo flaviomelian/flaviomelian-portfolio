@@ -50,8 +50,8 @@
 
 .mobile {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: repeat(2, auto);   
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
     gap: 3vh;
 }
 
@@ -81,14 +81,15 @@
     justify-content: space-between;
 }
 
-.twind, .bstrap {
+.twind,
+.bstrap {
     border-radius: 5%;
     width: 50%;
     height: 80%;
     margin: 3%;
 }
 
-.bstrap-alt{
+.bstrap-alt {
     width: 15%;
     height: 15%;
 }
@@ -105,6 +106,9 @@
     /* para separar */
 }
 
+.stack-alt:first-of-type {
+    width: 55%;
+}
 
 .pokimon {
     display: flex;
@@ -229,6 +233,10 @@
         width: 95%;
         margin-left: 0;
     }
+
+    .stack-alt:first-of-type {
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 769px) {
@@ -238,7 +246,11 @@
         margin-right: auto;
         margin-left: 0;
     }
-    
+
+    .stack-alt:first-of-type {
+        width: 100%;
+    }
+
     .next {
         width: 20% !important;
     }
@@ -247,15 +259,16 @@
         width: 30%;
     }
 
-    .bstrap-alt{
+    .bstrap-alt {
         width: 27%;
     }
 
-    .styles-stack{
+    .styles-stack {
         margin-right: 20%;
     }
 
-    .twind, .bstrap {
+    .twind,
+    .bstrap {
         width: 90%;
     }
 
@@ -277,5 +290,19 @@
     .wallpaper-editor {
         width: 95%;
         height: 95%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .next {
+        width: 25% !important;
+    }
+
+    .node {
+        width: 35% !important;
+    }
+
+    .mysql {
+        width: 35% !important;
     }
 }
