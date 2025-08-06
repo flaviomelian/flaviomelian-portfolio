@@ -62,7 +62,7 @@ main img {
 @media screen and (max-width: 1024px) {
   main {
     flex-direction: column;
-    height: 120vh;
+    height: 130vh;
   }
 
   .container {
