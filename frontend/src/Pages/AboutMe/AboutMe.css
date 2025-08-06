@@ -79,7 +79,7 @@ main img {
 }
 
 @media screen and (max-width: 426px){
-  main {height: 143vh}
+  main {height: 162vh;}
   .container {margin-bottom: 20vh;}
 }
 
