@@ -71,3 +71,7 @@ main img {
     height: auto;
   }
 }
+
+@media screen and (max-width: 426px){
+  main {height: 143vh}
+}
