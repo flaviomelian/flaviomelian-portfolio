@@ -337,6 +337,10 @@
         width: 100%;
     }
 
+    .stack-alt{
+        margin-left: 0%;
+    }
+
     .stack-alt img:first-of-type{
         width: 42%;
         margin-left: 10%;
