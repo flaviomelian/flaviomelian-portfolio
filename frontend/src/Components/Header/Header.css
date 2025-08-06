@@ -36,3 +36,7 @@ img:hover {
 @media screen and (max-width: 426px) {
     header{width: 93%;}
 }
+
+@media screen and (max-width: 397px){
+    header {width: 95%;}
+}
