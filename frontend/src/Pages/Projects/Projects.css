@@ -55,6 +55,13 @@
     gap: 3vh;
 }
 
+.next {
+    width: 20%;
+}
+
+.node {
+    width: 40%;
+}
 
 .stack,
 .stack-alt {
@@ -63,6 +70,20 @@
     justify-content: space-between;
     margin: 3% auto;
     width: 50%;
+}
+
+.styles-stack {
+    width: 25%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.twind, .bstrap {
+    border-radius: 5%;
+    width: 50%;
+    height: 80%;
+    margin: 3%;
 }
 
 .stack img,

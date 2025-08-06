@@ -43,6 +43,8 @@ import odoo from '../../assets/odoo.png'
 import odooPet from '../../assets/odoo-pet.png'
 import dashboardOdooPet from '../../assets/dashboard-odoo-pet.png'
 import formOdoo from '../../assets/form-odoo.png'
+import tailwind from '../../assets/tailwind.png'
+import bootstrap from '../../assets/bootstrap.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -55,9 +57,13 @@ const Projects = () => {
                     <p>Una aplicación para la gestión de comandas y menús en un restaurante.</p>
                     <a href='' />
                     <div className='stack-alt'>
-                        <img src={next} />
-                        <img src={node} />
+                        <img className='next' src={next} />
+                        <img className='node' src={node} />
                         <img src={mysql} />
+                    </div>
+                    <div className='styles-stack'>
+                        <img className='twind' src={tailwind} />
+                        <img className='bstrap' src={bootstrap} />
                     </div>
                     <div className='project-images-pm'>
                         <img className='pm' src={commandAppDashBoard} />
@@ -87,6 +93,7 @@ const Projects = () => {
                         <img src={react} />
                         <img src={spring} />
                         <img src={mysql} />
+                        <img className='bstrap' src={bootstrap} />
                     </div>
                     <div className='project-images-pm'>
                         <img className='pm' src={pm1} />
