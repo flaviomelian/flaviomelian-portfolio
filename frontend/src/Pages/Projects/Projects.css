@@ -48,6 +48,14 @@
     margin-bottom: 5%;
 }
 
+.mobile {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto);   
+    gap: 3vh;
+}
+
+
 .stack,
 .stack-alt {
     display: flex;
