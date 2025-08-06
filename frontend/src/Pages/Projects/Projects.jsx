@@ -93,8 +93,8 @@ const Projects = () => {
                         <img src={react} />
                         <img src={spring} />
                         <img src={mysql} />
-                        <img className='bstrap' src={bootstrap} />
                     </div>
+                    <img className='bstrap-alt' src={bootstrap} />
                     <div className='project-images-pm'>
                         <img className='pm' src={pm1} />
                         <img className='pm' src={pm2} />
