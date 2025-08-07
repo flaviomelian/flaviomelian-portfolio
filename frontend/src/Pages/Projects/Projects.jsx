@@ -51,6 +51,8 @@ import bashScript1 from '../../assets/bash-script-1-1.png'
 import bashScript2 from '../../assets/bash-script-1-2.png'
 import bashScript3 from '../../assets/bash-script-1-3.png'
 import effectBashScript from '../../assets/efecto-bash-script.png'
+import cpp from '../../assets/C++_Logo.png'
+import shellCpp from '../../assets/shell-c++.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -153,7 +155,7 @@ const Projects = () => {
                     <a href='' />
                     <div className='stack-alt bash'>
                         <img src={bash} />
-                        <img src={ubuntu}/>
+                        <img src={ubuntu} />
                     </div>
                     <div className='bash-script'>
                         <img src={bashScript1} />
@@ -163,10 +165,18 @@ const Projects = () => {
                     <p>El efecto es habernos creado una carpeta que anida el proyecto que queríamos respaldar, extensible a cualquier proyecto</p>
                     <img className='bash-script-img' src={effectBashScript} />
                 </div>
+                <div>
+                    <h2>FLA$H</h2>
+                    <p>Una shell minimalista que simula el comportamiento básico de una terminal de Unix/Linux usando procesos del sistema operativo.</p>
+                    <div className='shell-cpp'>
+                        <img className="cpp" src={cpp} />
+                        <img className="shell" src={shellCpp} />
+                    </div>
+                </div>
                 <div className='project'>
                     <h2>Wallpaper Pattern Editor</h2>
                     <p>Una aplicación para generar fondos de pantalla basados en patrones de figuras.</p>
-                    <img className='python' src={python} />
+                    <img className='python-1' src={python} />
                     <a href='' />
                     <div className='project-images-wallpaper'>
                         <img className='wallpaper-editor' src={wallpaper} />
