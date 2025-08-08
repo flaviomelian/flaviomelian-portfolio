@@ -268,6 +268,17 @@
     margin: auto;
 }
 
+.java {
+    border-radius: 5%;
+    width: 100%;
+}
+
+.chat {
+    width: 90%;
+    height: 100%;
+    border-radius: 5%;
+}
+
 .shell {
     width: 80%;
     height: 80%;
@@ -342,6 +353,11 @@
 
     .bash-script-img {
         margin-top: 5%;
+    }
+
+    .chat {
+        width: 100%;
+        height: 100%;
     }
 }
 

@@ -52,6 +52,8 @@ import bashScript2 from '../../assets/bash-script-1-2.png'
 import bashScript3 from '../../assets/bash-script-1-3.png'
 import effectBashScript from '../../assets/efecto-bash-script.png'
 import cpp from '../../assets/C++_Logo.png'
+import java from '../../assets/java.png'
+import chat from '../../assets/chat-java-c++.png'
 import shellCpp from '../../assets/shell-c++.png'
 import './Projects.css'
 
@@ -118,6 +120,15 @@ const Projects = () => {
                             <img className='pm-alt' src={pm11} />
                         </div>
                     </div>
+                </div>
+                <div className='project'>
+                    <h2>Chat en tiempo real</h2>
+                    <p>Un chat con una interfaz en Java que lanza un servidor en C++ para comunicar en red dos ventanas.</p>
+                    <div className='stack'>
+                        <img className="java" src={java} />
+                        <img className="cpp" src={cpp} />
+                    </div>
+                    <img className='chat' src={chat}/>
                 </div>
                 <div className='project'>
                     <h2>Pókimon App</h2>
