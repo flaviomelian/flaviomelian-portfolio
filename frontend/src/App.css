@@ -53,11 +53,13 @@
   #root {
     width: 77%;
     margin: 0 auto;
-  }  
+  }
 }
 
 @media screen and (max-width: 426px) {
   #root {
-    width: 100%;
+    position: relative;
+    width: 98%;
+    right: 2%;
   }
 }

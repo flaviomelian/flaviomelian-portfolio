@@ -1,0 +1,59 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000df;
+    width: 100%;
+    height: 120vh;
+    padding-bottom: 3%;
+}
+
+.stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 3% auto;
+    width: 50%;
+}
+
+.stack img {
+    height: 6vh;
+}
+
+.project-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 20px;
+}
+
+.pokimon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 100%;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 426px) {
+
+    
+}

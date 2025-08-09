@@ -8,7 +8,7 @@
 }
 
 .projects {
-    background-color: #1684b0a4;
+    background-color: #0000007f;
     color: white;
     padding: 20px;
     width: 20%;
@@ -21,14 +21,14 @@
 }
 
 .projects:hover {
-    background-color: #058abb;
+    background-color: #000000;
     box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
     transition: all 0.3s ease;
 }
 
 .intro,
 .destacados {
-    background-color: #1684b0a4;
+    background-color: #0000007f;
     color: white;
     padding: 20px;
     box-shadow:
@@ -74,7 +74,7 @@ ul {
 }
 
 li {
-    background-color: #1684b0c0;
+    background-color: #212121c1;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -83,7 +83,7 @@ li {
 }
 
 li:hover {
-    background-color: #058abb;
+    background-color: #000000;
     box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
 }
 

@@ -51,10 +51,10 @@ import bashScript1 from '../../assets/bash-script-1-1.png'
 import bashScript2 from '../../assets/bash-script-1-2.png'
 import bashScript3 from '../../assets/bash-script-1-3.png'
 import effectBashScript from '../../assets/efecto-bash-script.png'
+import shellCpp from '../../assets/shell-c++.png'
 import cpp from '../../assets/C++_Logo.png'
 import java from '../../assets/java.png'
 import chat from '../../assets/chat-java-c++.png'
-import shellCpp from '../../assets/shell-c++.png'
 import './Projects.css'
 
 const Projects = () => {

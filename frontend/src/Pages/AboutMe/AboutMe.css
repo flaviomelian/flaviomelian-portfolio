@@ -3,7 +3,7 @@ main {
   flex-direction: row;
   align-items: center;
   padding: 20px;
-  background-color: #1684b0ab;
+  background-color: #0000007f;
   height: 100vh;
 }
 
@@ -21,7 +21,7 @@ main img {
   padding: 0 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  background-color: #1684b0a4;
+  background-color: #000000df;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
   line-height: 1.6;
   opacity: 1;
@@ -29,8 +29,8 @@ main img {
 }
 
 .container:hover {
-  background-color: #1684b0d0;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.697);
+  background-color: #000;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.83);
   transition: all 0.3s ease;
 }
 

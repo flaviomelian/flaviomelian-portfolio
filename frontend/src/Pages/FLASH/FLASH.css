@@ -1,0 +1,29 @@
+.project {
+    background-color: #00000072;
+    padding: 0;
+    padding-bottom: 14%;
+}
+
+.shell-cpp {
+    display: flex;
+    flex-direction: column;
+}
+
+.cpp {
+    width: 20%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shell {
+    width: 90%;
+    height: 90%;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.cpp:hover .shell:hover {
+    transform: scale(1.02);
+}

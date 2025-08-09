@@ -1,0 +1,32 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200vh;
+}
+
+.bash{
+    position: relative;
+    left: 1%;
+}
+
+.bash-script {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.bash-script img {
+    width: 45%;
+    height: 100%;
+    border-radius: 3%;
+}
+
+.bash-script-img {
+    margin: 3% auto;
+    border-radius: 3%;
+    width: 60%;
+    height: 100%;
+}

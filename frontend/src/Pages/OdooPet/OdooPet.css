@@ -1,0 +1,53 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.project-images-odoo-pet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-odoo-pet {
+    width: 80%;
+    height: 37%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1% / 10%;
+}
+
+.stack-odoo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% auto;
+    width: 50%;
+    height: 50%;
+}
+
+.python {
+    width: 36%;
+    height: 84%;
+    border-radius: 5%;
+}
+
+.odoo{
+    width: 45%;
+    height: 80%;
+    border-radius: 5%;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+@media screen and (max-width: 769px) {
+
+    
+}
