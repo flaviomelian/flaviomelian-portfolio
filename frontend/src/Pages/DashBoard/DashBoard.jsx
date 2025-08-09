@@ -10,6 +10,7 @@ const data = {
     { id: 1, title: "ComandApp", path: '/commandApp' },
     { id: 2, title: "Devly", path: '/devly' },
     { id: 5, title: "Cookbook", path: '/cookBook' },
+    { id: 9, title: "ChatRealTime", path: '/chatRealTime' },
   ],
   Scripts: [
     { id: 3, title: "Autoejecutable Backups", path: '/backupsSh' },

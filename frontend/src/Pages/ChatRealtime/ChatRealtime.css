@@ -1,0 +1,36 @@
+.stack-chat-realtime{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+.cpp {
+    width: 20%;
+    height: 90%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.java {
+    border-radius: 5%;
+    width: 20%;
+    height: 100%;
+}
+
+.chat {
+    width: 90%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 769px) {
+    .cpp { width: 30%;}
+    .java{ height: 80%;}
+}
+
+@media screen and (max-width: 769px) {
+    .cpp { width: 40%;}
+    .java{ width: 40%;}
+}
