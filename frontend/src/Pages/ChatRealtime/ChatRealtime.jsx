@@ -2,7 +2,7 @@ import React from 'react'
 import cpp from '../../assets/C++_Logo.png'
 import java from '../../assets/java.png'
 import chat from '../../assets/chat-java-c++.png'
-import './ChatRealTime.css'
+import './ChatRealtime.css'
 
 const ChatRealtime = () => {
     return (
