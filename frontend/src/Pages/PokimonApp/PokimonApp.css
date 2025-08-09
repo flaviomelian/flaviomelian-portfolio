@@ -55,4 +55,5 @@
 
 @media screen and (max-width: 426px) {
     .project-images{flex-direction: column;}
+    .pokimon, .team {width: 90%;}
 }
