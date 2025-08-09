@@ -1,7 +1,7 @@
 .project {
     background-color: #00000072;
     padding: 0;
-    padding-bottom: 10%;
+    padding-bottom: 14%;
 }
 
 .shell-cpp {
@@ -26,4 +26,11 @@
 
 .cpp:hover .shell:hover {
     transform: scale(1.02);
+}
+
+@media screen and (max-width:769px) {
+    .project{
+        position: relative;
+        top: 3vh;
+    }
 }
