@@ -106,7 +106,7 @@
     width: 13px;
     height: 103%;
     background: #0ff6ff88;
-    bottom: 0vh;
+    top: 2vh;
     left: 160%;
     transform: rotate(90deg);
     border-radius: 50% / 5%;
