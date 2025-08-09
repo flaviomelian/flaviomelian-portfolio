@@ -22,10 +22,10 @@ const ProjectsManagement = () => {
             <h2 className="devly">Devly</h2>
             <p><strong>Una aplicación para gestionar proyectos de desarrollo Scrum.</strong></p>
             <a href='' />
-            <div className='stack-alt'>
-                <img src={react} />
-                <img src={spring} />
-                <img className='mysql' src={mysql} />
+            <div className='stack-alt-pm'>
+                <img className="react-pm" src={react} />
+                <img className="spring-pm" src={spring} />
+                <img className='mysql-pm' src={mysql} />
             </div>
             <img className='bstrap-alt' src={bootstrap} />
             <div className='project-images-pm'>

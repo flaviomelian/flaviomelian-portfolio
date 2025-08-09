@@ -208,18 +208,58 @@
     animation-delay: 1s;
 }
 
-
-/* Ajustes responsivos */
-@media (max-width: 900px) {
-    .topology-container {
-        grid-template-columns: 1fr;
-        gap: 50px;
-    }
-
-    .cluster-0::after,
-    .cluster-1::before,
-    .cluster-1::after,
-    .cluster-2::before {
-        display: none;
-    }
+@media screen and (max-width: 1441px) {
+  .topology-container{
+    padding: 40px 32px;
+  }
+  .cluster-0::before {
+    height: 90%;
+    left: 165%;
+  }
+  .area-cluster:last-of-type {
+    left: 120%;
+  }
 }
+
+@media screen and (max-width: 769px) {
+  /* Oculta líneas y decoraciones */
+  *::before,
+  *::after {
+    display: none !important;
+    content: none !important;
+  }
+
+  /* Estructura en columna simple */
+  .topology-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    padding: 20px;
+  }
+
+  /* Resetea posiciones "locas" de escritorio */
+  .area-cluster {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    width: 90%;
+  }
+
+  /* Ajusta títulos y nodos al ancho de móvil */
+  .area-cluster h3 {
+    font-size: 1.2rem;
+  }
+
+  .nodes {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .node {
+    min-width: unset;
+    width: 90%;
+  }
+}
+

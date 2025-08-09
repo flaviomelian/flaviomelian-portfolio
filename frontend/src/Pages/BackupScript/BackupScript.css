@@ -5,11 +5,17 @@
     justify-content: center;
     width: 100%;
     height: 200vh;
+    padding: 0 auto;
 }
 
-.bash{
+.bash {
     position: relative;
     left: 1%;
+}
+
+.bash-img{
+    width: 40%;
+    height: 80%;
 }
 
 .bash-script {
@@ -29,4 +35,27 @@
     border-radius: 3%;
     width: 60%;
     height: 100%;
+}
+
+@media screen and (max-width: 769px) {
+
+    .bash-script {
+        flex-direction: column;
+    }
+
+    .bash-script img {
+        margin: auto;
+        width: 75%;
+    }
+
+    .bash-script-img {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .project{
+        position: relative;
+        bottom: 10vh;
+    }
 }

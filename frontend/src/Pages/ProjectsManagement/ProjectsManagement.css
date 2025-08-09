@@ -1,6 +1,6 @@
 .projects-management {
     background-color: #000000df;
-    padding: 5%  3% 10% 3%;
+    padding: 5% 3% 10% 3%;
     width: 94%;
 }
 
@@ -8,14 +8,32 @@
     margin-bottom: 5%;
 }
 
-.stack-alt {
+.stack-alt-pm {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     margin: 3% auto;
+    width: 100%;
+}
+
+.react-pm {
     width: 50%;
+    height: 80%;
+}
+
+.spring-pm {
+    width: 25%;
+    margin-left: 10%;
+    height: 200px;
+}
+
+.mysql-pm {
+    margin-left: 10%;
+    width: 40%;
+    height: 10%;
+    border-radius: 5%;
 }
 
 .bstrap-alt {
@@ -23,7 +41,7 @@
     height: 7%;
 }
 
-.pm-data{
+.pm-data {
     width: 95%;
     height: 95%;
     border-radius: 5%;
@@ -47,4 +65,47 @@
 
 .project-images-pm div {
     margin-top: 5%;
+}
+
+@media screen and (max-width:1024px) {
+    .stack-alt-pm {
+        width: 95% !important;
+    }
+
+    .spring-pm{
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    .stack-alt-pm {
+        width: 100% !important;
+    }
+
+    .pm {
+        height: 20vh;
+    }
+
+    .bstrap-alt {
+        height: 2%;
+    }
+
+    .pm {
+        height: 32vh;
+    }
+
+    .spring-pm{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .bstrap-alt {
+        height: 2%;
+    }
+
+    .spring-pm{
+        height: 70px;
+    }
 }

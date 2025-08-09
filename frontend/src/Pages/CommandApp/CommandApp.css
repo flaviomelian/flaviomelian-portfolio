@@ -11,7 +11,7 @@
     margin-bottom: 10px;
 }
 
-.stack-alt {
+.stack-commandapp {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -19,7 +19,7 @@
     width: 50%;
 }
 
-.stack-alt img {
+.stack-commandapp img {
     height: 100px;
     border-radius: 8px;
 }
@@ -69,4 +69,79 @@
     width: 100%;
     border-radius: 8px;
     height: 60vh;
+}
+
+@media screen and (max-width:1025px) {
+    .stack-commandapp {
+        margin: 3% 0% 3% 5%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .stack-commandapp {
+        width: 100% !important;
+        margin: 20px 0 !important;
+    }
+
+    .next {
+        width: 20%;
+        height: 88% !important;
+    }
+
+    .styles-stack {
+        width: 35%;
+    }
+
+    .node-js {
+        height: 100px !important;
+        width: 32%;
+    }
+
+    .twind,
+    .bstrap {
+        height: 14vh !important;
+    }
+
+    .stack-commandapp img {
+        height: 100px;
+    }
+
+    .styles-stack {
+        width: 50%;
+    }
+
+    .project-images-pm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile .pm {
+        height: 100vh;
+        width: 80%;
+        margin: 1% auto;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    .stack-commandapp{
+        width: 60% !important;
+    }
+
+    .styles-stack {
+        width: 65%;
+    }
+
+    .next {
+        width: 40%;
+    }
+
+    .node-js{ width: 52%;}
+
+    .mysql { width: 52%; }
 }

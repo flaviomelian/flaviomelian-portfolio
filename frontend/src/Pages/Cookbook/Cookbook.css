@@ -1,10 +1,13 @@
-.project {
+.project-cookbook {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 180vh;
+    position: relative;
+    top: 3vh;
+    margin-bottom: 15%;
 }
 
 .stack-alt {
@@ -21,14 +24,43 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
-    row-gap: 30px;
+    row-gap: 3px;
 }
 
 .cooks {
     display: flex;
     justify-self: center;
-    width: 65%;
+    width: 50%;
     height: 100%;
     border-radius: 5%;
 }
 
+.mysql-cb {
+    margin-left: 10%;
+    width: 40%;
+    height: 66%;
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 769px) {
+    .stack-alt {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    .project-cookbook {
+        height: 400vh !important;
+        top: 0vh;
+    }
+
+    .project-images-cookbook {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cooks {
+        margin: 0 auto;
+    }
+}

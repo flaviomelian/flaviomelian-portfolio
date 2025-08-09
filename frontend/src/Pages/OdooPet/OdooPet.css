@@ -48,6 +48,5 @@ img:hover {
 }
 
 @media screen and (max-width: 769px) {
-
-    
+    .stack-odoo{height: 15%;}    
 }

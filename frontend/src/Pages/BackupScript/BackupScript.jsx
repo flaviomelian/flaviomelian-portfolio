@@ -14,8 +14,8 @@ const BackupScript = () => {
             <p><strong>Un script para Linux en bash que permite crear copias de seguridad, paso a paso con un ejemplo.</strong></p>
             <a href='' />
             <div className='stack-alt bash'>
-                <img src={bash} />
-                <img src={ubuntu} />
+                <img className='bash-img' src={bash} />
+                <img className='bash-img' src={ubuntu} />
             </div>
             <div className='bash-script'>
                 <img src={bashScript1} />

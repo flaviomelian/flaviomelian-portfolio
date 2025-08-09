@@ -26,9 +26,9 @@ const ComandApp = () => {
       <h1>ComandApp</h1>
       <p>Una aplicación para la gestión de comandas y menús en un restaurante.</p>
 
-      <div className="stack-alt">
+      <div className="stack-commandapp">
         <img className="next" src={next} alt="Next.js" />
-        <img className="node" src={node} alt="Node.js" />
+        <img className="node-js" src={node} alt="Node.js" />
         <img className="mysql" src={mysql} alt="MySQL" />
       </div>
 

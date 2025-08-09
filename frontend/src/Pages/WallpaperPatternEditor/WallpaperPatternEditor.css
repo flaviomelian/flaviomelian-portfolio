@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-.python-1{
+.python-1 {
     width: 15%;
     height: 20%;
 }
@@ -19,4 +19,21 @@
     height: 400px;
     border-radius: 5%;
     margin-top: 5%;
+}
+
+@media screen and (max-width: 1441px) {
+    .wallpaper-editor {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .python-1 {
+        height: 11%;
+    }
+
+    .wallpaper-editor {
+        width: 90%;
+        height: 100%;
+    }
 }

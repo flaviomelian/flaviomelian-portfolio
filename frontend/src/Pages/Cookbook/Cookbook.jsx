@@ -11,14 +11,14 @@ import './Cookbook.css'
 
 const Cookbook = () => {
     return (
-        <div className='project'>
+        <div className='project-cookbook'>
             <h2>Cookbook</h2>
             <p>Una aplicación para compartir recetas online.</p>
             <a href='' />
             <div className='stack-alt'>
-                <img src={react} />
-                <img src={spring} />
-                <img className='mysql' src={mysql} />
+                <img className="react-pm" src={react} />
+                <img className="spring-pm" src={spring} />
+                <img className='mysql-cb' src={mysql} />
             </div>
             <div className='project-images-cookbook'>
                 <img className='cooks' src={cookbookCooks} />
