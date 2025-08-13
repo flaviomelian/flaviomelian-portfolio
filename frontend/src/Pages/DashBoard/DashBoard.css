@@ -98,136 +98,13 @@
     box-shadow: 2px 2px 10px #ffffffdd;
 }
 
-/* Líneas simples entre clusters (simulación con pseudo-elementos) */
-
-.cluster-0::before {
-    content: '';
-    position: absolute;
-    width: 13px;
-    height: 103%;
-    background: #0ff6ff88;
-    top: 2vh;
-    left: 160%;
-    transform: rotate(90deg);
-    border-radius: 50% / 5%;
-    box-shadow: 0 1px 5px #0fc3ffdd;
-}
-
-.cluster-0::after {
-    content: '';
-    position: absolute;
-    width: 13px;
-    height: 180px;
-    background: #0ff6ff88;
-    top: 95%;
-    left: 92%;
-    transform: rotate(138deg);
-    border-radius: 50% / 5%;
-    box-shadow: 0 1px 5px #0fc3ffdd;
-}
-
-.cluster-1::before {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 11.5vh;
-    background: #0ff6ff88;
-    top: 10vh;
-    z-index: 0;
-    left: -15%;
-    transform: rotate(-137deg);
-    border-radius: 50% / 5%;
-    box-shadow: 0 1px 5px #0fc3ffdd;
-}
-
-.cluster-1::after {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 60px;
-    background: #0ff6ff88;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 50% / 5%;
-    box-shadow: 0 1px 5px #0fc3ffdd;
-}
-
-.cluster-2::before {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 15vh;
-    background: #0ff6ff88;
-    bottom: 33vh;
-    z-index: 0;
-    left: 3%;
-    transform: rotate(137deg);
-    border-radius: 50% / 5%;
-    box-shadow: 0 1px 5px #0fc3ffdd;
-}
-
-.cluster-2::after {
-    content: '';
-    position: absolute;
-    width: 12px;
-    height: 20vh;
-    background: #0ff6ff88;
-    top: 33vh;
-    z-index: 0;
-    left: 8%;
-    transform: rotate(45deg);
-    border-radius: 50% / 5%;
-    box-shadow: 0 1px 5px #0fc3ffdd;
-}
-
-.cluster-0::before,
-.cluster-0::after {
-    animation: pulseFlow 1s infinite;
-}
-
-.cluster-0::after {
-    animation-delay: 0.75s;
-}
-
-.cluster-1::before,
-.cluster-1::after {
-    animation: pulseFlow 1s infinite;
-}
-
-.cluster-1::after {
-    animation-delay: 1.75s;
-}
-
-.cluster-2::before,
-.cluster-2::after {
-    animation: pulseFlow 1s infinite;
-}
-
-.cluster-2::after {
-    animation-delay: 1s;
-}
-
 @media screen and (max-width: 1441px) {
   .topology-container{
     padding: 40px 32px;
   }
-  .cluster-0::before {
-    height: 90%;
-    left: 165%;
-  }
-  .area-cluster:last-of-type {
-    left: 120%;
-  }
 }
 
 @media screen and (max-width: 769px) {
-  /* Oculta líneas y decoraciones */
-  *::before,
-  *::after {
-    display: none !important;
-    content: none !important;
-  }
 
   /* Estructura en columna simple */
   .topology-container {
