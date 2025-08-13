@@ -1,23 +1,23 @@
 main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   padding: 20px;
   background-color: #0000007f;
-  height: 100vh;
+  height: 110vh;
 }
 
 main img {
-  width: 30%;
+  width: 50%;
   height: auto;
   border-radius: 10px;
-  margin-right: 10%;
+  margin-right: 5%;
   margin-left: 3%;
 }
 
 .container {
   width: 700px;
-  margin: 40px auto;
+  margin: 20px auto;
   padding: 0 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
@@ -47,7 +47,7 @@ main img {
 
 @media screen and (max-width: 1441px) {
   .container {
-    width: 50%;
+    width: 80%;
     margin: 20px auto;
     padding: 0 10px;
   }
@@ -68,18 +68,27 @@ main img {
   .container {
     width: 90%;
   }
+
+   main img {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 768px) and (orentation: landscape) {
-  main img {
+   main img {
     margin: auto;
-    width: 30%;
+    width: 40%;
     height: auto;
   }
 }
 
 @media screen and (max-width: 426px){
   main {height: 162vh;}
+   main img {
+    margin: auto;
+    width: 90%;
+    height: auto;
+  }
   .container {margin-bottom: 20vh;}
 }
 
