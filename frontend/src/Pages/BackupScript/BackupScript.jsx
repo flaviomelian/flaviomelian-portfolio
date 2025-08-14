@@ -11,7 +11,7 @@ const BackupScript = () => {
     return (
         <div className='project'>
             <h2>Autoejecutable para backups</h2>
-            <p><strong>Un script para Linux en bash que permite crear copias de seguridad, paso a paso con un ejemplo.</strong></p>
+            <p className='p-linux'><strong>Un script para Linux en bash que permite crear copias de seguridad, paso a paso con un ejemplo.</strong></p>
             <a href='' />
             <div className='stack-alt bash'>
                 <img className='bash-img-1' src={bash} />
