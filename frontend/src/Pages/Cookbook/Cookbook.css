@@ -14,10 +14,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 3% auto;
-    width: 50%;
+    width: 65%;
 }
 
 .project-images-cookbook {
@@ -45,6 +42,7 @@
 @media screen and (max-width: 769px) {
     .stack-alt {
         justify-content: space-evenly;
+        width: 90%;
     }
 }
 
@@ -62,5 +60,9 @@
 
     .cooks {
         margin: 0 auto;
+    }
+
+    .project-cookbook .stack-alt {
+        width: 90%;
     }
 }
