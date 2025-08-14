@@ -10,11 +10,18 @@
 
 .bash {
     position: relative;
-    left: 1%;
+    right: 5%;
 }
 
-.bash-img{
-    width: 40%;
+.bash-img {
+    width: 30%;
+    height: 70%;
+    border-radius: 59%;
+    margin-top: 5%;
+}
+
+.bash-img-1 {
+    width: 55%;
     height: 80%;
 }
 
