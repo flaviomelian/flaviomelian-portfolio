@@ -1,27 +1,13 @@
-@keyframes pulseFlow {
-  0% {
-    box-shadow: 0 1px 5px #0fc3ffdd;
-    background: #ffffff88;
-  }
-  50% {
-    box-shadow: 0 1px 15px #68faffdd;
-    background: #ffffffaa;
-  }
-  100% {
-    box-shadow: 0 1px 5px #0fc3ffdd;
-    background: #ffffff88;
-  }
-}
 
 
 .topology-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 60px 40px;
     padding: 40px;
     background: #0000007f;
     color: #eee;
-    height: 100vh;
+    height: 150vh;
     box-sizing: border-box;
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -44,7 +30,6 @@
     padding: 20px;
     box-shadow: 0 0 12px #ffffff55;
     position: relative;
-    top: 20vh;
     z-index: 2;
 }
 
@@ -54,7 +39,6 @@
     padding: 20px;
     box-shadow: 0 0 12px #ffffff55;
     position: relative;
-    left: 110%;
     z-index: 2;
 }
 

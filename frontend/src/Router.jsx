@@ -13,6 +13,7 @@ import OdooPet from './Pages/OdooPet/OdooPet.jsx'
 import WallpaperPatternEditor from './Pages/WallpaperPatternEditor/WallpaperPatternEditor.jsx'
 import BackupScript from './Pages/BackupScript/BackupScript.jsx'
 import ChatRealtime from './Pages/ChatRealtime/ChatRealtime.jsx'
+import ElectronicShop from './Pages/ElectronicShop/ElectronicShop.jsx'
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,7 @@ const router = createBrowserRouter([
       { path: '/wallpaperPatternEditor', element: <WallpaperPatternEditor /> },
       { path: '/backupsSh', element: <BackupScript /> },
       { path: '/chatRealTime', element: <ChatRealtime /> },
+      { path: '/e-shop', element: <ElectronicShop /> },
     ],
   },
 ])

@@ -19,7 +19,7 @@ import './ProjectsManagement.css'
 const ProjectsManagement = () => {
     return (
         <div className='projects-management'>
-            <h2 className="devly">Devly</h2>
+            <h1 className="devly">Devly</h1>
             <p><strong>Una aplicación para gestionar proyectos de desarrollo Scrum.</strong></p>
             <a href='' />
             <div className='stack-alt-pm'>

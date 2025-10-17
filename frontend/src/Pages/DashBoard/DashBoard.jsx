@@ -11,6 +11,7 @@ const data = {
     { id: 2, title: "Devly", path: '/devly' },
     { id: 5, title: "Cookbook", path: '/cookBook' },
     { id: 9, title: "ChatRealTime", path: '/chatRealTime' },
+    { id: 10, title: "Electronic Shop", path: '/e-shop' },
   ],
   Scripts: [
     { id: 3, title: "Autoejecutable Backups", path: '/backupsSh' },
