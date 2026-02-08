@@ -34,3 +34,10 @@
     padding-bottom: 1%;
   }
 }
+
+@media screen and (max-width: 426px) {
+    .footer{
+        position: relative;
+        top: 3vh;
+    }
+}
