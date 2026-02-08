@@ -134,16 +134,18 @@ li:hover {
   }
 
   .home-section {
-    background-image: url('../../assets/Cabecera-mobile.png'); /* imagen para móvil */
+    background-image: url("../../assets/Cabecera-mobile.png"); /* imagen para móvil */
   }
 
   .home-section div {
     position: relative;
-    top: 10vh;
-    left: 29%;
+    top: 8vh;
+    margin-left: 62%;
+    width: 33%;
   }
 
-  .intro, .destacados {
+  .intro,
+  .destacados {
     position: relative;
     top: 6vh;
   }

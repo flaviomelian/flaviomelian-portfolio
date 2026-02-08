@@ -10,7 +10,7 @@ function Home() {
       <section
         className="min-h-screen bg-cover bg-center flex items-center justify-center home-section"
       >
-        <div className="text-white text-center bg-black/50 p-8 rounded-xl backdrop-blur-sm max-w-lg mx-4 to-see">
+        <div className="text-white text-center bg-black/50 p-8 rounded-xl backdrop-blur-sm mx-4 to-see">
           <Link
             to="/dashboard"
             className="inline-block px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-full transition projects"
