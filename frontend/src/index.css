@@ -2,10 +2,8 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: url('assets/background.png');
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -71,7 +69,12 @@ button:focus-visible {
 @media screen and (max-width: 1025px) {
   :root {
     width: 100%;
-  }  
+  }
+  
+  #root {
+    margin: 0;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 426px) {

@@ -1,118 +1,150 @@
 .home-section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0% 10% / 50% 0% 10%;
+  background-image: url("../../assets/Cabecera.png"); /* tu imagen por defecto */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .to-see {
-    height: 18vh;
+  height: 18vh;
 }
 
 .projects {
-    background-color: #0000007f;
-    color: white;
-    padding: 20px;
-    width: 20%;
-    border-radius: 10px;
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
-    text-align: center;
-    position: relative;
-    top: 12vh;
-    right: 20vw;
+  background-color: #0000007f;
+  color: white;
+  padding: 20px;
+  width: 20%;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  text-align: center;
+  position: relative;
+  top: 12vh;
+  right: 20vw;
 }
 
 .projects:hover {
-    background-color: #000000;
-    box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
-    transition: all 0.3s ease;
+  background-color: #000000;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
+  transition: all 0.3s ease;
 }
 
 .intro,
 .destacados {
-    background-color: #0000007f;
-    color: white;
-    padding: 20px;
-    box-shadow:
-        -6px 0 12px rgba(255, 255, 255, 0.15),
-        6px 0 12px rgba(255, 255, 255, 0.15);
-    text-align: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 .stack-home {
-    width: 80%;
-    height: 30%;
-    border-radius: 10% / 15%;
-    position: relative;
-    left: 0%;
-    bottom: 5vh;
+  width: 80%;
+  height: 30%;
+  border-radius: 10% / 15%;
+  position: relative;
+  left: 0%;
+  bottom: 5vh;
 }
 
 .stack-home-alt {
-    width: 80%;
-    height: 40%;
-    border-radius: 10% / 15%;
-    position: relative;
-    left: 0%;
-    bottom: 5vh;
-} 
+  width: 80%;
+  height: 40%;
+  border-radius: 10% / 15%;
+  position: relative;
+  left: 0%;
+  bottom: 5vh;
+}
 
 .stack-home-final {
-    width: 80%;
-    height: 30%;
-    border-radius: 10% / 15%;
-    position: relative;
-    left: 0%;
-    bottom: 5vh;
+  width: 80%;
+  height: 30%;
+  border-radius: 10% / 15%;
+  position: relative;
+  left: 0%;
+  bottom: 5vh;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 li {
-    background-color: #212121c1;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
-    transition: all 0.3s ease;
+  background-color: #212121c1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
 }
 
 li:hover {
-    background-color: #000000;
-    box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
+  background-color: #000000;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.493);
 }
 
 .about-link {
-    color: white;
-    text-decoration: none;
-    transition: color 0.2s ease;
-    border-radius: 5% / 50%;
-    transition: all 0.3s ease;
-    padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  border-radius: 5% / 50%;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
 }
 
 .about-link:hover {
-    color: white;
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
-    background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 1441px) {
+  .projects {
+    right: 30vw;
+    top: 13vh;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .projects {
+    right: 35vw;
+  }
 }
 
 @media screen and (max-width: 426px) {
+  h1 {
+    font-size: 1.4rem !important;
+  }
 
-    h1 {
-        font-size: 1.4rem !important;
-    }
+  .about-link {
+    padding: 5px 10px;
+  }
 
-    .about-link {
-        padding: 5px 10px;
-    }
-    
-    .destacados {
-        padding-bottom: 10%;
-    }
+  .destacados {
+    padding-bottom: 10%;
+  }
+
+  .projects {
+    right: 30vw;
+  }
+
+  .home-section {
+    background-image: url('../../assets/Cabecera-mobile.png'); /* imagen para móvil */
+  }
+
+  .home-section div {
+    position: relative;
+    top: 10vh;
+    left: 29%;
+  }
+
+  .intro, .destacados {
+    position: relative;
+    top: 6vh;
+  }
 }

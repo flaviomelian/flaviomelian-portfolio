@@ -11,6 +11,8 @@ const data = {
     { id: 2, title: "Devly", path: '/devly' },
     { id: 5, title: "Cookbook", path: '/cookBook' },
     { id: 9, title: "ChatRealTime", path: '/chatRealTime' },
+    { id: 10, title: "ECMAS Software", path: '/ecmas' },
+    { id: 11, title: "SmartSolarLAB", path: '/smartSolarLab' },
   ],
   Scripts: [
     { id: 3, title: "Autoejecutable Backups", path: '/backupsSh' },

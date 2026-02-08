@@ -1,0 +1,41 @@
+.stack-ecmas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+}
+
+.next-ecmas {
+  width: 15%;
+  height: 50%;
+}
+
+.spring-ecmas {
+  width: 25%;
+  height: 50%;
+  margin-left: 10%;
+}
+
+.mysql-ecmas {
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 15%;
+  height: 25%;
+  border-radius: 5%;
+}
+
+.ecmas-text {
+  text-align: justify;
+  line-height: 1.6; /* opcional, mejora la lectura */
+  font-size: 1rem; /* opcional, ajusta al tamaño que quieras */
+  margin-left: 3rem; /* opcional, separa de otros elementos */
+  margin-right: 3rem; /* opcional, separa de otros elementos */
+  margin-top: 0.5rem; /* opcional, separa de otros elementos */
+  margin-bottom: 0.5rem; /* opcional, separa de otros elementos */
+}
+
+.video-ecmas {
+  width: 95%;
+  margin-top: 0.5rem; /* opcional, separa de otros elementos */
+  border-radius: 10px;
+}

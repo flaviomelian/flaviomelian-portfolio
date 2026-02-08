@@ -13,106 +13,107 @@
   }
 }
 
-
 .topology-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 60px 40px;
-    padding: 40px;
-    background: #0000007f;
-    color: #eee;
-    height: 100vh;
-    box-sizing: border-box;
-    position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px 40px;
+  padding: 40px;
+  color: #eee;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Áreas (clusters) */
 .area-cluster {
-    background: #070707;
-    border-radius: 16px;
-    padding: 20px;
-    box-shadow: 0 0 12px #ffffff55;
-    position: relative;
-    z-index: 2;
+  background: #070707;
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 2rem; /* en lugar de 50%, ajustable */
+  box-shadow: 0 0 12px #ffffff55;
+  position: relative;
+  z-index: 2;
+  height: auto; /* altura según contenido */
 }
 
 .area-cluster:first-of-type,
 .area-cluster:nth-of-type(3) {
-    background: #070707;
-    border-radius: 16px;
-    padding: 20px;
-    box-shadow: 0 0 12px #ffffff55;
-    position: relative;
-    top: 20vh;
-    z-index: 2;
+  background: #070707;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 0 12px #ffffff55;
+  position: relative;
+  z-index: 2;
 }
 
 .area-cluster:last-of-type {
-    background: #070707;
-    border-radius: 16px;
-    padding: 20px;
-    box-shadow: 0 0 12px #ffffff55;
-    position: relative;
-    left: 110%;
-    z-index: 2;
+  background: #070707;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 0 12px #ffffff55;
+  position: relative;
+  z-index: 2;
 }
 
 .area-cluster:hover {
-    box-shadow: 0 0 20px #ffffff85;
-    transition: 0.25s ease-in-out;
+  box-shadow: 0 0 20px #ffffff85;
+  transition: 0.25s ease-in-out;
 }
 
 .area-cluster h3 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    border-bottom: 2px solid #ffffff;
-    padding-bottom: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 8px;
 }
 
 /* Nodo individual */
 .nodes {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
 }
 
 .node {
-    background: #1b1b1bd1;
-    color: #ffffff;
-    padding: 12px 18px;
-    border-radius: 14px;
-    font-weight: 700;
-    cursor: pointer;
-    box-shadow: 1px 1px 10px #c3c3c3aa;
-    transition: box-shadow 0.2s ease;
-    user-select: none;
-    min-width: 140px;
-    text-align: center;
+  background: #1b1b1bd1;
+  color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px #c3c3c3aa;
+  transition: box-shadow 0.2s ease;
+  user-select: none;
+  min-width: 140px;
+  text-align: center;
 }
 
 .node:hover {
-    box-shadow: 2px 2px 10px #ffffffdd;
+  box-shadow: 2px 2px 10px #ffffffdd;
 }
 
 @media screen and (max-width: 1441px) {
-  .topology-container{
+  .topology-container {
     padding: 40px 32px;
   }
 }
 
 @media screen and (max-width: 769px) {
-
   /* Estructura en columna simple */
   .topology-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    height: auto;
+    display: grid; /* activa grid */
+    grid-template-columns: repeat(2, 1fr); /* 4 columnas iguales */
+    grid-template-rows: repeat(
+      4,
+      auto
+    ); /* 4 filas automáticas según contenido */
+    gap: 20px; /* espacio entre filas y columnas */
     padding: 20px;
+    height: auto; /* altura según contenido */
   }
 
   /* Resetea posiciones "locas" de escritorio */
@@ -140,3 +141,9 @@
   }
 }
 
+@media screen and (max-width: 426px) {
+  .topology-container{
+    display: flex;
+    flex-direction: column;
+  }
+}

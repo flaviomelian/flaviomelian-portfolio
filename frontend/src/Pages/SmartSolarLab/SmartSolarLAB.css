@@ -1,0 +1,64 @@
+/* Contenedor principal para centrar y dar margen */
+.solar-container {
+  max-width: 800px;
+  margin: 10px auto; /* 40px arriba/abajo, auto a los lados para centrar */
+  padding: 20px;   /* Evita que en móviles toque los bordes */
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #cfd2d6;
+}
+
+/* Título principal */
+.solar-title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.stack-smart-solar-lab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  position: relative;
+  left: 10%;
+}
+
+.next-smart-solar-lab {
+  width: 15%;
+  height: 50%;
+}
+
+.spring-smart-solar-lab {
+  width: 15%;
+  height: 20%;
+  margin-left: 10%;
+}
+
+.mysql-smart-solar-lab {
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 25%;
+  height: 25%;
+  border-radius: 5%;
+}
+
+/* Párrafos justificados */
+.solar-text {
+  text-align: justify;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+}
+
+/* Estilo para la nota final */
+.solar-footer-note {
+  font-style: italic;
+  color: #dfebfc;
+  margin-top: 2rem;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1rem;
+}
+
+.solar-highlight {
+  color: #ffffff;
+}

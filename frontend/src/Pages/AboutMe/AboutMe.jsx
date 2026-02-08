@@ -1,6 +1,6 @@
 import React from "react";
 import './AboutMe.css';
-import me from '../../assets/me(1).jpg';
+import me from '../../assets/ME.pNg';
 
 const AboutMe = () => {
     return (
