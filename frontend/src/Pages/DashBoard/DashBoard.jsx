@@ -13,6 +13,7 @@ const data = {
     { id: 9, title: "ChatRealTime", path: '/chatRealTime' },
     { id: 10, title: "ECMAS Software", path: '/ecmas' },
     { id: 11, title: "SmartSolarLAB", path: '/smartSolarLab' },
+    { id: 12, title: "Electronic Shop", path: '/e-shop' },
   ],
   Scripts: [
     { id: 3, title: "Autoejecutable Backups", path: '/backupsSh' },

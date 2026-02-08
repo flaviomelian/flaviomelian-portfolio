@@ -1,28 +1,16 @@
-@keyframes pulseFlow {
-  0% {
-    box-shadow: 0 1px 5px #0fc3ffdd;
-    background: #ffffff88;
-  }
-  50% {
-    box-shadow: 0 1px 15px #68faffdd;
-    background: #ffffffaa;
-  }
-  100% {
-    box-shadow: 0 1px 5px #0fc3ffdd;
-    background: #ffffff88;
-  }
-}
+
 
 .topology-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 60px 40px;
-  padding: 40px;
-  color: #eee;
-  height: 100vh;
-  box-sizing: border-box;
-  position: relative;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 40px;
+    padding: 40px;
+    background: #0000007f;
+    color: #eee;
+    height: 150vh;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Áreas (clusters) */
@@ -39,21 +27,21 @@
 
 .area-cluster:first-of-type,
 .area-cluster:nth-of-type(3) {
-  background: #070707;
-  border-radius: 16px;
-  padding: 20px;
-  box-shadow: 0 0 12px #ffffff55;
-  position: relative;
-  z-index: 2;
+    background: #070707;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 0 12px #ffffff55;
+    position: relative;
+    z-index: 2;
 }
 
 .area-cluster:last-of-type {
-  background: #070707;
-  border-radius: 16px;
-  padding: 20px;
-  box-shadow: 0 0 12px #ffffff55;
-  position: relative;
-  z-index: 2;
+    background: #070707;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 0 12px #ffffff55;
+    position: relative;
+    z-index: 2;
 }
 
 .area-cluster:hover {
