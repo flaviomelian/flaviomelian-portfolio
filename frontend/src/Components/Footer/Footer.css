@@ -41,7 +41,7 @@
         left: 0;
         bottom: 0;
         width: 95%;
-        margin: 0; /* Quitamos márgenes para que no flote */
+        margin-top: 5%; /* Ajustamos márgenes para que no flote */
     }
 
     .social-icons { padding-right: 10%; }
