@@ -133,6 +133,7 @@
   .topology-container{
     display: flex;
     flex-direction: column;
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
+    gap: 60px 10px;
   }
 }
