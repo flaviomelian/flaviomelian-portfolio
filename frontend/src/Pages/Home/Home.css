@@ -152,11 +152,15 @@ li:hover {
 }
 
 @media screen and (min-width: 319px) and (max-width: 376px) {
-    .home-section div {
+  .home-section div {
     position: relative;
     top: 8vh;
-    left: 3%;
+    left: 9%;
     margin-left: 48%;
-    width: 53%;
+    width: 44%;
+  }
+
+  .destacados {
+    top: 0vh;
   }
 }
