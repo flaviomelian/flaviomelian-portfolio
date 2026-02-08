@@ -37,6 +37,7 @@
 @media screen and (max-width: 426px) {
     .footer{
         position: relative;
-        top: 3vh;
+        margin-top: 5%;
+        bottom: 0vh;
     }
 }
