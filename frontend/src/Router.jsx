@@ -15,6 +15,7 @@ import BackupScript from './Pages/BackupScript/BackupScript.jsx'
 import ChatRealtime from './Pages/ChatRealtime/ChatRealtime.jsx'
 import ElectronicShop from './Pages/ElectronicShop/ElectronicShop.jsx'
 import ECMAS from './Pages/ECMAS/ECMAS.jsx'
+import SmartSolarLAB from './Pages/SmartSolarLab/SmartSolarLAB.jsx'
 
 const router = createBrowserRouter([
   {
