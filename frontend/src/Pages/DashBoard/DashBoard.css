@@ -131,6 +131,8 @@
 
 @media screen and (max-width: 426px) {
   .topology-container{
+    padding-top: 2px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     margin-bottom: 15vh;
